@@ -1,22 +1,19 @@
 {
-  "name": "portfolio-generator",
+  "name": "project",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo"
+    "test": "node ./test/sample.js",
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/katensullivan55/portfolio-generator.git"
-  },
-  "author": "kate",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/katensullivan55/portfolio-generator/issues"
-  },
-  "homepage": "https://github.com/katensullivan55/portfolio-generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^7.0.3"
   }
 }
